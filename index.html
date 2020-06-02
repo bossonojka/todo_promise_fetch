@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>1 task:</h3>
+        <button type="button" id="getTasks">Get all tasks</button>
+    </div>
+    <div>
+        <h3>2 task:</h3>
+        <label for='getById'>Get task by id:</label>
+        <input type="number" placeholder="task id" id ="getById" value = ''>
+        <button type="button" id="getTask">Get task</button>
+    </div>
+    <div>
+        <form>
+            <h3>3 task:</h3>
+            <label for="title">Title:</label>
+            <input type = 'text' placeholder="title task" value = '' id = "title">
+            <label for="userId">userId: </label>
+            <input type = 'number' placeholder="userId" value = '' id = "userId">
+            <span>Completed:</span>
+            <input type='checkbox' id="checkbox">
+            <button type ="button" id ="addTask">Add new task</button>
+        </form>
+    </div>
+    <div>
+        <h3>4 task:</h3>
+        <label for='deleteById'>Delete task by id:</label>
+        <input type="number" placeholder="task id" id ="deleteById" value = ''>
+        <button type="button" id="deleteTask">Delete task</button>
+    </div>
+    <div>
+        <h3>5 task:</h3>
+        <label for="changeStateById">Change completion state</label>
+        <input type="number" placeholder="task id" id ="changeStateById">
+        <button type="button" id="changeCompletionTask">Change completion state</button>
+    </div>
+    <div>
+        <h3>6 task:</h3>
+        <label for="changeTitleById">Change title by id:</label>
+        <input type="number" placeholder="task id" id="changeTitleById">
+        <label for="changeTitle">Change title</label>
+        <input type="text" placeholder="title" id ="changeTitle" value ="">
+        <button type="button" id="changeTitleTask">Change title</button>
+    </div>
+    <div>
+        <h3>7 task:</h3>
+        <button type="button" id ="getUncompletedTasks">Get uncompleted tasks</button>
+    </div>
+    
+    <section type="button" id="data-output">
+    
+    </section>
+
+    <script src="fetch-practice/todoList.js"></script>
+</body>
+</html>
